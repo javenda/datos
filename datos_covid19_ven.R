@@ -40,6 +40,7 @@ View(ven_covid)
 library(apexcharter)
 
 g_nuevos <- apex(data = ven_covid, type = "area", 
+<<<<<<< HEAD
                  caption='Casos  COVID-19 acumulados Venezuela',
      mapping = aes(x = fecha, y =nuevos_t))%>%
   ax_subtitle(text = "Covid-19 acumulado Venezuela")
@@ -47,3 +48,7 @@ g_nuevos <- apex(data = ven_covid, type = "area",
   theme=('Candy')
 
 g_nuevos
+=======
+     mapping = aes(x = fecha, y =nuevos_t)) #ejecute acá. no en la línea anterior 
+str(g_nuevos)
+>>>>>>> b837c4277ca58ec7bc3d55bee8db9d01c988dd34
